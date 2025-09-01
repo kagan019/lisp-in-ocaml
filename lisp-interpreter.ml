@@ -607,32 +607,3 @@ let lisp pathname =
 lisp "tests123.txt"
 
 
-(* OUTPUT `ocaml lisp-interpreter.ml`
-solve
-solving
-solving-add
-solving-subtract
-solving-multiply
-solving-divide
-is-inside
-operator
-left
-right
-t
-nil
-t
-nil
-nil
-t
-(= x (- c a))
-(= x (- c b))
-(= x (- a c))
-(= x (+ b c))
-(= x (/ c a))
-(= x (/ c b))
-(= x (/ a c))
-(= x (* b c))
-(= y (+ (* m x) b))
-(= x (/ (- y b) m))
-(= a (* e (+ f (/ (+ b c) d))))
-*)
